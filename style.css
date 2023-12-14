@@ -47,7 +47,7 @@ footer{
     background-color: black;
     text-align: center;
     color: white;
-   padding-top: 5px;
+   padding-top: 5px; 
   
 }
 section{
@@ -55,7 +55,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em; 
     padding-left: 50px;
-    font-family: 2em;
+   font-size: 3.5vw;
 }
 .normal{
     background-color: white;
@@ -65,10 +65,13 @@ section{
     
     background-color: rgb(75, 73, 73);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px  rgba(0, 0, 0, 0.493);
 
 }
 .imagem p{
-    width: 400px;
+   display: inline-block;
+   padding: 5px;
+   border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.301);
 }
 a:hover{
@@ -76,5 +79,19 @@ a:hover{
 }
 section p {
     font-family: var(--font3);
-    
 }
+section#img01{
+    background-image: url(pacote-d012/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section#img02{
+    background-image: url(pacote-d012/background002.jpg); 
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
+
